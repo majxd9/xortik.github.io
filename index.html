@@ -263,7 +263,6 @@
     <p class="tagline" data-ar="نوصلك بأمان" data-en="We get you there, safely">نوصلك بأمان</p>
   </header>
 
-  <!--
   بانر كود الخصم — معطّل افتراضياً. لما تصير عندك حملة فعلية:
   1) شيل علامات التعليق (<!- - و - ->) من حوالين الـ div تحت
   2) بدّل PROMO_CODE بالكود الحقيقي
@@ -274,13 +273,12 @@
     </span>
     <span class="promo-text">
       <span class="promo-label" data-ar="كود الخصم" data-en="Discount code">كود الخصم</span>
-      <span class="promo-code">PROMO_CODE</span>
+      <span class="promo-code">thx</span>
     </span>
     <button type="button" class="promo-copy" id="promoCopyBtn" aria-label="Copy code">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V5a2 2 0 00-2-2H5a2 2 0 00-2 2v9a2 2 0 002 2h3"/></svg>
     </button>
   </div>
-  -->
 
   <section class="cards" aria-label="التطبيقات والتواصل">
 
@@ -362,7 +360,7 @@
     </div>
     <div>
       <h2 data-ar="وين تلاقينا" data-en="Find us">وين تلاقينا</h2>
-      <p class="addr-text">ADDRESS_PLACEHOLDER</p>
+      <p class="addr-text">35.13065003738246, 36.73709841465833</p>
       <a class="link-inline" href="https://www.google.com/maps?q=35.1236,36.7435" target="_blank" rel="noopener" data-ar="افتح على خرائط Google ←" data-en="Open in Google Maps →">افتح على خرائط Google ←</a>
     </div>
   </section>
@@ -371,23 +369,21 @@
     <h2 data-ar="شوف كيف تشتغل وديني" data-en="See how Waddini works">شوف كيف تشتغل وديني</h2>
 
     <!-- الحالة الافتراضية: بطاقة بانتظار الفيديو (القسم شغال منيح حتى بدون فيديو) -->
-    <div class="video-placeholder">
+   <!-- <div class="video-placeholder">
       <span class="play-btn" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="#0a2410"><path d="M8 5v14l11-7Z"/></svg>
       </span>
       <p data-ar="فيديو الشرح رح يكون هون قريباً" data-en="The explainer video will be here soon">فيديو الشرح رح يكون هون قريباً</p>
     </div>
-
-    <!--
+-->
     لما يجهز عندك فيديو يوتيوب: احذف الـ div اللي فوق (video-placeholder)،
     وشيل التعليق عن الكود تحت، وبدّل YOUR_VIDEO_ID برقم/كود الفيديو من رابط اليوتيوب:
 
     <div class="video-wrapper">
-      <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" title="فيديو شرح وديني"
+      <iframe src="https://youtu.be/VuIWaxmNh54?si=Sgdqge_pfcJFXa-j" title="فيديو شرح وديني"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         loading="lazy" allowfullscreen></iframe>
     </div>
-    -->
   </section>
 
   <footer class="foot">
